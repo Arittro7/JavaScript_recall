@@ -1,0 +1,47 @@
+body{
+  padding: 30px 50px;
+  text-align: center;
+  align-items: center;
+  
+}
+
+#red{
+  background-color: red;
+}
+#orange{
+  background-color: orange;
+}
+#yellow{
+  background-color: yellow;
+}
+#tomato{
+  background-color: tomato;
+}
+
+button{
+  padding: 10px 30px;
+  font-size: larger;
+  border: 3px solid transparent;
+  margin-right: 4px;
+}
+
+#textBox{
+  background-color: aquamarine;
+  width: max-content;
+  margin: auto;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+
+#textBox h1{
+  text-transform: uppercase;
+}
+
+p{
+  font-size: 30px;
+}
+
+button:hover{
+  border: 2px solid black;
+  cursor: pointer;
+}
