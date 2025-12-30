@@ -1,0 +1,52 @@
+/* style.css */
+
+body {
+    padding: 30px 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.count { 
+    font-size: 60px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.minus, .reset, .plus {
+    font-size: 30px;
+    padding: 15px 30px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    
+}
+
+.minus {
+    background-color: tomato;
+    color: white;
+}
+
+.reset {
+    background-color: #333;
+    color: white;
+}
+
+.plus {
+    background-color: green;
+    color: white;
+}
+
+.minus:hover, .reset:hover, .plus:hover {
+    transform: scale(1.1);
+    opacity: 0.9;
+}
