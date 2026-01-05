@@ -5,3 +5,6 @@
 
 ## Project 2 ⏱️
 [**Counter**](https://arittro7.github.io/JavaScript_recall/counter-p2/)
+
+## Project 3 ⏱️
+[**Counter**](https://arittro7.github.io/JavaScript_recall/btnAction/)
